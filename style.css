@@ -75,13 +75,13 @@ p{
 @media screen and (max-width:640px){
     .container{
         display: flex;
-        width:65%;
+        max-width:50%;
         
     }
 
 
     #faq-sec{
-        width: 80rem;
+        width:100%;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         margin-top: 5rem;
