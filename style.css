@@ -15,10 +15,12 @@ body{
     margin: 0 auto;
     background-color: hsl(275, 100%, 97%);
     box-shadow: 5px 5px 15px hsl(0, 1%, 23%);
-    padding: 80px;
+    padding: 110px;
+    
+
 }
 #faq-sec{
-    width: 50%;
+    width: 40%;
     border-radius: 8px;
     background-color: hsl(0, 0%, 100%);
     margin-top: 5rem;
@@ -70,15 +72,12 @@ p{
     justify-content: space-between;
     align-items: space-between;   
 }
-@media screen and (max-width:540px){
+@media screen and (max-width:640px){
     .container{
         display: flex;
         width:65%;
-        height:auto;
+        
     }
-    h3:hover, h1:hover {
-    color: rgb(185, 71, 210);
-  }
 
 
     #faq-sec{
@@ -88,4 +87,7 @@ p{
         margin-top: 5rem;
         box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
     }
+    h3:hover, h1:hover {
+        color: rgb(185, 71, 210);
+      }
 }
