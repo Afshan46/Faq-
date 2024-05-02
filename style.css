@@ -63,7 +63,7 @@ p{
     font-weight: 0.55rem;
     word-spacing: 0.20rem;
     width:90%;
-    color: rgb(198, 107, 237);
+    color: rgb(211, 148, 238);
 } 
 hr{
     border-top: 1px solid rgb(243, 181, 234);
@@ -80,14 +80,14 @@ hr{
         width:65%;
     }
     #faq-sec{
-        width: 90rem;
+        width: 60rem;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         margin-top: 5rem;
         box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
     }
     p{
-        width: 95%;
+        width: %;
     }
     h3:hover {
         color: rgb(185, 71, 210);
