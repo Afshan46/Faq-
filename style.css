@@ -74,7 +74,11 @@ p{
     .container{
         display: flex;
         width:65%;
+        height:auto;
     }
+    h3:hover, h1:hover {
+    color: rgb(185, 71, 210);
+  }
 
 
     #faq-sec{
