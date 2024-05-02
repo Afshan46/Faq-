@@ -15,12 +15,10 @@ body{
     margin: 0 auto;
     background-color: hsl(275, 100%, 97%);
     box-shadow: 5px 5px 15px hsl(0, 1%, 23%);
-    padding: 110px;
-    
-
+    padding: 80px;
 }
 #faq-sec{
-    width: 40%;
+    width: 50%;
     border-radius: 8px;
     background-color: hsl(0, 0%, 100%);
     margin-top: 5rem;
@@ -72,16 +70,15 @@ p{
     justify-content: space-between;
     align-items: space-between;   
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:540px){
     .container{
         display: flex;
-        max-width:50%;
-        
+        width:65%;
     }
 
 
     #faq-sec{
-        width:100%;
+        width: 80rem;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         margin-top: 5rem;
