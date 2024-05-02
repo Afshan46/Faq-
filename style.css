@@ -64,7 +64,11 @@ p{
     word-spacing: 0.20rem;
     width:90%;
     color: rgb(198, 107, 237);
-}  
+} 
+hr{
+    border-top: 1px solid rgb(243, 181, 234);
+    width: 90%;
+} 
 .question{
     display: flex;
     justify-content: space-between;
@@ -75,14 +79,15 @@ p{
         display: flex;
         width:65%;
     }
-
-
     #faq-sec{
         width: 60rem;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         margin-top: 5rem;
         box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
+    }
+    p{
+        width: 80%;
     }
     h3:hover {
         color: rgb(185, 71, 210);
