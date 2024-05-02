@@ -37,7 +37,7 @@ h1{
     color: hsl(288, 93%, 11%);
     margin-right: 1rem;
 }
-h3:hover, h1:hover {
+h3:hover {
     color: rgb(185, 71, 210);
   }
 .faq{
@@ -78,13 +78,14 @@ p{
 
 
     #faq-sec{
-        width: 60%;
+        width: 60rem;
         border-radius: 8px;
         background-color: hsl(0, 0%, 100%);
         margin-top: 5rem;
         box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
     }
-    h3:hover, h1:hover {
+    h3:hover {
         color: rgb(185, 71, 210);
+
       }
 }
