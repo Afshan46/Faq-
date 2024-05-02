@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    width:80%;
+    margin: 0 auto;
+    background-color: hsl(275, 100%, 97%);
+    box-shadow: 5px 5px 15px hsl(0, 1%, 23%);
+    padding: 80px;
+}
+#faq-sec{
+    width: 50%;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 5rem;
+    box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
+}
+h3{
+    font-size: 0.80rem;
+    font-weight: 600; 
+    margin-left: 1.55rem;
+    margin-top:0.50rem;
+    color: hsl(288, 93%, 11%);
+    
+}
+h1{
+    font-size: 2rem;
+    color: hsl(288, 93%, 11%);
+    margin-right: 1rem;
+}
+h3:hover, h1:hover {
+    color: rgb(185, 71, 210);
+  }
+.faq{
+    display:flex;
+    gap:-1rem;
+  
+}
+.faq img{
+   margin-top: 2rem;
+   margin-left: 1.40rem;
+    height: 1.50rem;
+}
+
+img{
+    margin-right: 1rem;
+    height: 1.50rem;
+    
+}
+p{
+    margin-top: 0.35rem;
+    margin-left: 1.55rem;
+    font-size: 0.78rem;
+    font-weight: 0.55rem;
+    word-spacing: 0.20rem;
+    width:90%;
+    color: rgb(198, 107, 237);
+}  
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;   
+}
+@media screen and (max-width:540px){
+    .container{
+        display: flex;
+        width:65%;
+    }
+
+
+    #faq-sec{
+        width: 80rem;
+        border-radius: 8px;
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 5rem;
+        box-shadow:1px 1px  20px rgba(0, 0, 0, 20.5);
+    }
+}
